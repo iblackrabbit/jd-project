@@ -1,0 +1,1 @@
+"use strict";requirejs.config({paths:{jquery:"http://localhost:8080/js/jquery-1.11.3",swiper:"JD/minjs/swiper-3.4.2.jquery.min","swiper.animate":"JD/minjs/swiper.animate1.0.2.min"}});

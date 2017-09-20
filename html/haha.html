@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../js/jquery-1.11.3.js">
+		</script>
+		<script type="text/javascript">
+			window.onload=function(){
+				
+				$.ajax({
+					type:"get",
+					  headers: {
+				      'Content-Type':'application/x-www-form-urlencoded'
+				  	 },
+					url:"/api/ware/getDetailCommentList.json?wareId=1593516",
+					async:true,
+					
+					success:function(data){
+						console.log(data);
+					}
+				});
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
